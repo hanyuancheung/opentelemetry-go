@@ -12,7 +12,7 @@ require (
 	github.com/google/go-cmp v0.5.6
 	github.com/stretchr/testify v1.7.0
 	go.opentelemetry.io/otel v0.20.0
-	go.opentelemetry.io/otel/metric v0.20.0
+	go.opentelemetry.io/otel/metric v0.21.0
 	go.opentelemetry.io/otel/oteltest v0.20.0
 	go.opentelemetry.io/otel/sdk v0.20.0
 	go.opentelemetry.io/otel/sdk/export/metric v0.20.0
