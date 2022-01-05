@@ -92,7 +92,7 @@ type Config struct {
 // controller.  See controller.New().
 func New(config Config, controller *controller.Controller) (*Exporter, error) {
 	if config.Registry == nil {
-		config.Registry = prometheus.NewRegistry()
+		config.Registry = prometheus.DefaultRegisterer.(*prometheus.Registry)
 	}
 
 	if config.Registerer == nil {
